@@ -1,68 +1,46 @@
 **/public/index.html**
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="utf-8" />
     <link rel="icon" type="image/svg+xml" href="https://i.postimg.cc/T2NNpFx1/photo-5211136734690145953-x.jpg" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Water-Drop Web Portfolio – AI, Calculators, Modern Glass Design</title>
-    <meta
-      name="description"
-      content="WOW portfolio showcasing water-drop design, AI assistant, cost calculators."
-    />
+    <meta name="description" content="WOW portfolio showcasing water-drop design, AI assistant, cost calculators." />
     <meta property="og:title" content="Water-Drop Web Portfolio" />
-    <meta
-      property="og:description"
-      content="WOW portfolio showcasing water-drop design, AI assistant, cost calculators."
-    />
-    <meta
-      property="og:image"
-      content="https://i.postimg.cc/T2NNpFx1/photo-5211136734690145953-x.jpg"
-    />
+    <meta property="og:description" content="WOW portfolio showcasing water-drop design, AI assistant, cost calculators." />
+    <meta property="og:image" content="https://i.postimg.cc/T2NNpFx1/photo-5211136734690145953-x.jpg" />
     <!-- Google Tag Manager -->
     <script>
-      (function (w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
-        var f = d.getElementsByTagName(s)[0],
-          j = d.createElement(s),
-          dl = l != "dataLayer" ? "&l=" + l : "";
-        j.async = true;
-        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
-        f.parentNode.insertBefore(j, f);
-      })(window, document, "script", "dataLayer", "GTM-TNJKHFZG");
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-TNJKHFZG');
     </script>
     <!-- End Google Tag Manager -->
   </head>
-
   <body style="margin:0">
     <!-- Google Tag Manager (noscript) -->
-    <noscript
-      ><iframe
-        src="https://www.googletagmanager.com/ns.html?id=GTM-TNJKHFZG"
-        height="0"
-        width="0"
-        style="display:none;visibility:hidden"
-      ></iframe
-    ></noscript>
+    <noscript>
+      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TNJKHFZG"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
     <!-- End Google Tag Manager (noscript) -->
     <div id="root"></div>
-
     <!-- Chatbase preload helper -->
     <script>
       (function () {
         if (!window.chatbase || window.chatbase("getState") !== "initialized") {
           window.chatbase = (...arguments) => {
-            if (!window.chatbase.q) {
-              window.chatbase.q = [];
-            }
+            if (!window.chatbase.q) { window.chatbase.q = []; }
             window.chatbase.q.push(arguments);
           };
           window.chatbase = new Proxy(window.chatbase, {
             get(target, prop) {
               if (prop === "q") return target.q;
               return (...args) => target(prop, ...args);
-            },
+            }
           });
         }
         const onLoad = function () {
@@ -72,11 +50,8 @@
           script.defer = true;
           document.body.appendChild(script);
         };
-        if (document.readyState === "complete") {
-          onLoad();
-        } else {
-          window.addEventListener("load", onLoad);
-        }
+        if (document.readyState === "complete") { onLoad(); }
+        else { window.addEventListener("load", onLoad); }
       })();
     </script>
   </body>
