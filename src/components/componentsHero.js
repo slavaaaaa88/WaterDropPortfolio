@@ -6,10 +6,7 @@ const Hero = () => (
   <header style={{ position: "relative", height: "100vh", overflow: "hidden" }}>
     <video
       src="https://dl.dropboxusercontent.com/scl/fi/718k2yxhq5zmv3rccev1x/document_5211136734233915875.mp4?raw=1"
-      autoPlay
-      loop
-      muted
-      playsInline
+      autoPlay loop muted playsInline
       style={{ width: "100%", height: "100%", objectFit: "cover" }}
     />
     <motion.div
@@ -27,26 +24,32 @@ const Hero = () => (
         padding: "0 1rem",
       }}
     >
-      <h1 style={{ fontSize: "clamp(2rem, 6vw, 4rem)", margin: 0 }}>
+      <img
+        src="https://i.postimg.cc/T2NNpFx1/photo-5211136734690145953-x.jpg"
+        alt="WaterDrop logo"
+        style={{ width: 80, marginBottom: 16, borderRadius: "24px", background: "rgba(0,0,0,0.1)" }}
+      />
+      <h1 style={{ fontSize: "clamp(2.1rem,6vw,4.6rem)", margin: 0, letterSpacing: "-2px" }}>
         Water-Drop Portfolio
       </h1>
-      <p style={{ fontSize: "clamp(1rem, 3vw, 1.5rem)", marginBottom: "2rem" }}>
-        Modern glass design, AI tools & calculators
+      <p style={{ fontSize: "clamp(1rem,2.5vw,1.5rem)", marginBottom: "2.5rem", textShadow: "0 2px 14px #007cf833" }}>
+        Современный стеклянный дизайн, AI, калькуляторы, витрина проектов
       </p>
       <button
-        className="ripple-btn glass-card"
+        className="ripple-btn glass-card btn-gradient"
         style={{
-          padding: "0.75rem 2rem",
-          fontSize: "1rem",
+          padding: "1rem 2.5rem",
+          fontSize: "1.08rem",
           border: "none",
           cursor: "pointer",
           color: "#fff",
-          background:
-            "linear-gradient(135deg,var(--primary) 0%,var(--secondary) 100%)",
+          fontWeight: 600,
+          borderRadius: 26,
+          boxShadow: "0 2px 16px #00e0ff22",
         }}
         onClick={() => window.scrollTo({ top: window.innerHeight, behavior: "smooth" })}
       >
-        Explore
+        Смотреть портфолио
       </button>
     </motion.div>
   </header>
