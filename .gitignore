@@ -1,14 +1,21 @@
-
-**/.gitignore**
-# Node
-node_modules
-npm-debug.log*
-yarn-error.log*
-# Build
-build
-dist
-# Misc
-.env.local
-.env.*.local
-.DS_Store
+WaterDropPortfolio
+├─ .gitignore
+├─ package.json
+├─ README.md
+├─ public
+│  └─ index.html
+└─ src
+   ├─ App.js
+   ├─ index.js
+   ├─ hooks/
+   │  └─ usePageView.js
+   ├─ styles/
+   │  └─ global.css
+   └─ components/
+      ├─ Hero.js
+      ├─ ProjectGallery.js
+      ├─ CostCalculator.js
+      ├─ IdeaGenerator.js
+      ├─ ChatbotButton.js
+      └─ ContactForm.js
 
