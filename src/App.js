@@ -6,8 +6,10 @@ import CostCalculator from "./components/CostCalculator";
 import IdeaGenerator from "./components/IdeaGenerator";
 import ChatbotButton from "./components/ChatbotButton";
 import ContactForm from "./components/ContactForm";
+import usePageView from "./hooks/usePageView";
 
 function App() {
+  usePageView();
   return (
     <>
       <Hero />
@@ -21,3 +23,4 @@ function App() {
 }
 
 export default App;
+
