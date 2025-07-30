@@ -1,0 +1,14 @@
+
+**/.gitignore**
+# Node
+node_modules
+npm-debug.log*
+yarn-error.log*
+# Build
+build
+dist
+# Misc
+.env.local
+.env.*.local
+.DS_Store
+
