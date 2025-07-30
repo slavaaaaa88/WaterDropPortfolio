@@ -3,7 +3,7 @@
   "name": "water-drop-portfolio",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://<GITHUB_LOGIN>.github.io/WaterDropPortfolio",
+  "homepage": "https://<ВАШ_GITHUB_ЛОГИН>.github.io/WaterDropPortfolio",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -14,10 +14,12 @@
   },
   "dependencies": {
     "framer-motion": "^10.18.0",
-    "gh-pages": "^6.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.23.0"
+    "react-router-dom": "^6.23.0",
+    "react-scripts": "^5.0.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
   }
 }
-
