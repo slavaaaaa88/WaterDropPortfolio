@@ -1,6 +1,11 @@
 **/README.md**
 # WaterDropPortfolio
 
-Production-ready React SPA featuring glassmorphism, calculators, AI chatbot and analytics. Deployed to GitHub Pages via `gh-pages` script.
+Готовый SPA-портфолио на React с эффектами glassmorphism, калькуляторами, AI-чатом, аналитикой и SEO.
 
-## Quick start
+## Как опубликовать сайт
+
+**1. Подготовьте структуру (см. ниже) и замените `Дерябин` в package.json и homepage.**
+
+**2. Установите зависимости:**
+
