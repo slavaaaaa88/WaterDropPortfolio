@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/WaterDropPortfolio/static/css/main.01c28b5b.css",
-    "main.js": "/WaterDropPortfolio/static/js/main.8bb90c7b.js",
+    "main.css": "/WaterDropPortfolio/static/css/main.f41cae6b.css",
+    "main.js": "/WaterDropPortfolio/static/js/main.5f03e49d.js",
     "index.html": "/WaterDropPortfolio/index.html",
-    "main.01c28b5b.css.map": "/WaterDropPortfolio/static/css/main.01c28b5b.css.map",
-    "main.8bb90c7b.js.map": "/WaterDropPortfolio/static/js/main.8bb90c7b.js.map"
+    "main.f41cae6b.css.map": "/WaterDropPortfolio/static/css/main.f41cae6b.css.map",
+    "main.5f03e49d.js.map": "/WaterDropPortfolio/static/js/main.5f03e49d.js.map"
   },
   "entrypoints": [
-    "static/css/main.01c28b5b.css",
-    "static/js/main.8bb90c7b.js"
+    "static/css/main.f41cae6b.css",
+    "static/js/main.5f03e49d.js"
   ]
 }
